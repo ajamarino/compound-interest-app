@@ -1,0 +1,16 @@
+<div class="calculator-section">
+  <h2>Compound Interest Calculator</h2>
+  <div class="input-row">
+    <app-custom-input [customInput]="initialValueInput"></app-custom-input>
+    <app-custom-input [customInput]="monthlyValueInput"></app-custom-input>
+  </div>
+  <div class="input-row">
+    <app-custom-input [customInput]="interestRateInput"></app-custom-input>
+    <app-custom-input [customInput]="periodInput"></app-custom-input>
+  </div>
+  <div>
+    <button mat-raised-button>Calculate</button>
+    <button mat-button>Clear</button>
+
+  </div>
+</div>
